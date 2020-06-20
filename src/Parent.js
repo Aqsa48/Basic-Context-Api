@@ -4,7 +4,7 @@ import { Child } from './Child'
 export const Parent = (props) => {
     return (
         <div>
-            this is parent
+            This Is Parent
             <Child num={props.num} />
         </div>
     )

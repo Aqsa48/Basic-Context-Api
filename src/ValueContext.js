@@ -1,5 +1,6 @@
 import React from 'react'
 
-const ValueContext = React.createContext(56)
+// passing the function with variable to update the state
+const ValueContext = React.createContext(56, () => { })
 
 export default ValueContext;
