@@ -7,6 +7,7 @@ export const Child = () => {
 
     return (
         <div>
+            Using useState
             child component data is {value}
             <button onClick={() => { value[1](++value[0]) }}  > Increase</button>
             <button onClick={() => { value[1](--value[0]) }}  > Decrease</button>
